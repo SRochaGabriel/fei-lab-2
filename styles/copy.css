@@ -1,0 +1,131 @@
+/* GERAL */
+body {
+    background-color: lightgray;
+}
+
+nav, main {
+    text-align: center;
+}
+
+/* CABEÇALHO */
+header div {
+    position: relative;
+    background-color: bisque;
+    border: solid 3px darkblue;
+}
+
+header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -100%;
+    color: darkgreen;
+}
+
+header img {
+    width: 150px;
+}
+
+header img#logo-java {
+    position: absolute;
+    right: 0;
+}
+
+/* NAVBAR */
+nav {
+    background-color: lightskyblue;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+    margin: 0 50px;
+}
+
+/* MAIN */
+#intro  p {
+    color: indigo;
+    font-size: 18pt;
+}
+
+/* LIVROS */
+#livros img {
+    height: 400px;
+    margin: 12px 24px;
+}
+
+/* VIDEOS */
+iframe {
+    margin: 12px 24px;
+    height: 400px;
+    width: 400px;
+    border: 0;
+}
+
+/* CONTATOS */
+#contatos {
+    justify-items: center;
+}
+
+#contatos table {
+    border: dashed 4px red;
+    border-spacing: 1px;
+}
+
+#contatos table th {
+    color: red;
+}
+
+#contatos table th, td {
+    border: solid 1px red;
+    padding: 5px;
+}
+
+/* OUTROS LINKS */
+#links {
+    background-color: yellow;
+    text-align: left;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    translate: -50% 0;
+}
+
+#links ul {
+    padding-bottom: 10px;
+}
+
+#links a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+/* RODAPÉ */
+footer {
+    background: bisque;
+    position: relative;
+    padding: 5px;
+}
+
+footer img {
+    height: 100px;
+}
+
+footer img#logo-css {
+    position: absolute;
+    right: 15px;
+}
+
+footer p {
+    font-size: 15pt;
+    font-family: "Comic Sans MS";
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -100%;
+}
